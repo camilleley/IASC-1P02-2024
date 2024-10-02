@@ -1,0 +1,28 @@
+body {
+    background-color: blue;
+}
+
+p {
+    color: deeppink;
+    font-family: sans-serif;
+}
+
+img {
+    max-height: 20%;
+    max-width: 20%;
+}
+
+.container {
+    border: black 5px solid;
+}
+
+div p {
+    border: green 2px dashed;
+    padding: 5px;
+    margin: 20px;
+}
+
+div img {
+    border: lightpink 2px dashed;
+    padding: 20px;
+}
