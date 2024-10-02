@@ -1,0 +1,18 @@
+.green {
+    background-color: green;
+}
+
+.dotted {
+    border: black 4px dotted;
+    padding: 10px;
+    margin: 10px;
+    color: red;
+}
+
+p + p {
+    color: darkgreen;
+}
+
+div {
+    color: purple;
+}
