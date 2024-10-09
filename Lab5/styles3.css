@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    padding: 20px 0;
+}
+
+#wrapper {
+    background-color: white;
+    padding: 5px 5px 0 5px;
+}
+
+#wrapper2 {
+    background-color: green;
+    margin: 0 auto;
+    height: 900px
+}
+
+#content1 {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    padding-top: 10px;
+    position: relative;
+    left: 150px;
+    top: 10px;
+    float: left;
+}
+
+#content2 {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    padding-top: 10px;
+    position: relative;
+    right: 150px;
+    top: 10px;
+    float: right;
+}
+
+#content3 {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    clear: both;
+    margin: 0 auto;
+    top: 10px;
+}
