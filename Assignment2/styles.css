@@ -25,7 +25,7 @@ p + p {
 #wrapper {
     margin: 0 auto;
     padding: 10px;
-    width: 1500px;
+    width: 1280px
 }
 
 #header1 {
@@ -51,7 +51,7 @@ h1 {
 #imgheader img {
     margin: 0 auto;
     display: block;
-    max-width: 1500px;
+    max-width: 1280px;
 }
 
 #leftside {
@@ -63,7 +63,7 @@ h1 {
 
 #rightside {
     float: right;
-    width: 1200px;
+    width: 980px;
     height: 3000px;
     background-color: white;
 }
@@ -86,9 +86,9 @@ h2 ~ p {
 #box img{
     max-width: 5%;
     position: fixed;
-    left: 1950px;
-    top: 125px;
-    border: 3px black dashed;
+    left: 1000px;
+    top: 215px;
+    border: 3px dashed black;
     padding: 10px;
     margin: 5px;
 }
@@ -97,11 +97,11 @@ h2 ~ p {
     position: relative;
     width: 400px;
     height: 150px;
-    left: 650px;
+    left: 450px;
     border: 5px dotted #d42301;
     padding: 10px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .absolute img {
