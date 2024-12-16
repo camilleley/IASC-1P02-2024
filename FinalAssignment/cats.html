@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="IASC 1P02 Final Website" />
+		<meta content="en-us" http-equiv="Content-Language" />
+		<title>Our Cats - Purrfect Cat Cafe</title>
+		<link href="styles3.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="scripts3.js"></script>
+	</head>
+
+    <body>
+
+        <div id="top">
+            <p id="clock"></p>
+        </div>
+
+        <div id="header">
+
+            <a href="finalwebsite.html"><img src="logo2.png" alt="Purrfect Cat Cafe Logo" class="center pointer"/></a>
+
+            <div id="nav">
+                <ul>
+                    <li><a href="finalwebsite.html#about">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="cats.html">Our Cats</a></li>
+                    <li><a href="finalwebsite.html#contact">Contact</a></li>
+                    <li><a href="finalwebsite.html#reservations">Reservations</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="meetCats">
+
+            <h2>Meet Our Cats</h2>
+
+            <p>At the Purrfect Cafe, every feline friend is available for adoption. With our partnership with the Leyden Humane Society, you can be assured all feline friends are up to date on their vaccinations and have been spayed/neutered. Adoption fees start at $200.</p>
+
+            <p>Please view the images below to meet our current Purrfect Cat Cafe residents.</p>
+
+        </div>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 10</div>
+              <img src="cat1.jpg" alt="Grey and white cat"/>
+              <div class="text">Spike</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 10</div>
+              <img src="cat2.jpg" alt="Orange and white cat"/>
+              <div class="text">Charles</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 10</div>
+              <img src="cat3.jpg" alt="Grey cat with stripes"/>
+              <div class="text">Toby</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 10</div>
+              <img src="cat4.jpg" alt="Grey kitten"/>
+              <div class="text">Lily</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 10</div>
+              <img src="cat5.jpg" alt="White cat"/>
+              <div class="text">Sugar</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">6 / 10</div>
+              <img src="cat6.jpg" alt="Calico Cat"/>
+              <div class="text">Maisy</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">7 / 10</div>
+              <img src="cat7.jpg" alt="Black cat"/>
+              <div class="text">Peanut</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">8 / 10</div>
+              <img src="cat8.jpg" alt="Orange cat"/>
+              <div class="text">Cheddar</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">9 / 10</div>
+              <img src="cat9.jpg" alt="Tortoiseshell cat"/>
+              <div class="text">Pumpkin</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">10 / 10</div>
+              <img src="cat10.jpg" alt="Black and white cat"/>
+              <div class="text">John</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+            <br/>
+
+            <div id="containerDot">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                    <span class="dot" onclick="currentSlide(9)"></span>
+                    <span class="dot" onclick="currentSlide(10)"></span>
+                <br/>
+                <br/>
+            </div>
+
+        <div id="catAge">
+
+            <div id="catAgeOne" class="wrapper">
+                <h3>How old are you in cat years?</h3>
+
+                <form action="finalwebsite.html" name="catAgeForm" id="catYears">
+
+                    <label for="ageFormOne">Your age</label>
+                    <br/>
+                    <input type="text" name="ageFormOne" id="ageFormOne"/>
+                    <br/>
+                    <button type="button" onclick="ageSubmitOne()" class="pointer">Submit</button>
+                </form>
+
+                <div id="answerOne"></div>
+
+            </div>
+
+            <div id="catAgeTwo" class="wrapper">
+                <h3>How is your cat in human years?</h3>
+
+                <form action="finalwebsite.html" name="catAgeFormTwo" id="humanYears">
+
+                    <label for="ageFormTwo">Your cat's age</label>
+                    <br/>
+                    <input type="text" name="ageFormTwo" id="ageFormTwo"/>
+                    <br/>
+                    <button type="button" onclick="ageSubmitTwo()" class="pointer">Submit</button>
+                </form>
+
+                <div id="answerTwo"></div>
+
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <p class="center">&copy; Purrfect Cat Cafe 2024</p>
+        </div>
+
+        <!--This was the only way I could figure out how to load my gallery/slideshow-->
+        <script type="text/javascript">
+            showSlides(slideIndex);
+        </script>
+
+    </body>
+</html>
