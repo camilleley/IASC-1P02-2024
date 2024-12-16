@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top {
+    background-color: #4F2E3E;
+}
+
+#top p {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+#header {
+    background-color: #5E5558;
+}
+
+#header img {
+    max-width: 50%;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+/*cursor code from https://www.w3schools.com/cssref/pr_class_cursor.php */
+.pointer {
+    cursor: pointer;
+}
+
+#nav {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#nav ul li {
+    display: inline-block;
+}
+
+#nav ul li a {
+    color: #FEFEFC;
+    text-decoration: none;
+    font-size: 35px;
+    margin: 50px;
+    font-family: Georgia, Garamond, serif;
+}
+
+#nav a:hover {
+    opacity: 70%;
+}
+
+#menuTitle {
+    color: #5E5558;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    font-family: Georgia, Garamond, serif;
+}
+
+#menuPhoto img {
+    width: 100%;
+}
+
+#coffee, #notCoffee, #sandwiches, #desserts {
+    text-align: center;
+    color: #5E5558;
+}
+
+#menuItems {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 40px;
+    padding: 20px;
+    font-family: Georgia, Garamond, serif;
+}
+
+#coffee p, #notCoffee p, #sandwiches p, #desserts p {
+    padding: 10px;
+    font-size: 30px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+#footer {
+    background-color: #776c70;
+}
+
+#footer p {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-family: Tahoma, Arial, sans-serif;
+}
