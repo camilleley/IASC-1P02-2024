@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="IASC 1P02 Final Website" />
+		<meta content="en-us" http-equiv="Content-Language" />
+		<title>Purrfect Cat Cafe</title>
+		<link href="styles1.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="scripts1.js"></script>
+	</head>
+
+    <body>
+
+        <div id="top">
+            <p id="clock"></p>
+        </div>
+
+        <div id="header">
+
+            <a href="finalwebsite.html"><img src="logo2.png" alt="Purrfect Cat Cafe Logo" class="center pointer"/></a>
+
+            <div id="nav">
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="cats.html">Our Cats</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#reservations">Reservations</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="hero">
+
+            <div id="heroLeft">
+                <h1>Purrfect Cat Cafe</h1>
+
+                <p>The purr-fect place to meet feline friends</p>
+            </div>
+            <div id="heroRight">
+
+               <!--Photo by Esra Afşar: https://www.pexels.com/photo/smiling-woman-sitting-and-patting-cat-19883756/-->
+                <img src="hero2.jpg" alt="Cat sitting on a person's lap and a cup of coffee"/>
+            </div>
+
+        </div>
+
+        <div id="scrollingImage"></div>
+
+        <div id="about">
+
+            <div class="wrapper">
+                <h2>About Us</h2>
+
+                <p>Come to the Purrfect Cat Cafe to have delicious coffee and snacks while you pet and cuddle our adorable feline friends. In our cozy environment, you and the kitties will feel just at home with a variety of seating options and cat toys. Whether you want to enjoy some quiet reading time, get some work done, play with cats, or enjoy delicious food, the Purrfect Cat Cafe is the place for you.</p>
+
+                <p>Since we have partnered with the Leyden Humane Society, every cat in our cafe is available for adoption. At the cafe, you can learn about each of the cat’s personalities and inquire about the adoption process. There is no obligation to adopt a cat when visiting the Purrfect Cat Cafe, however, the option is there if you fall in love with one of our feline friends.</p>
+
+                <p>We try our best to cater to all visitors with our vegan and gluten free options. Our menu has hot and cold drinks, sandwiches, and freshly baked pastries.</p>
+
+            </div>
+
+        </div>
+
+        <div id="contact">
+            <div id="left" class="wrapper">
+                <img src="map.png" alt="map of Brock University"/>
+            </div>
+            <div id="right" class="wrapper">
+                <h2>Contact</h2>
+
+                <p>&#40;123&#41; 456&#45;7890</p>
+
+                <a href="mailto:info@purrfectcatcafe.com">info&#64;purrfectcatcafe.com</a>
+
+                <h2>Hours</h2>
+
+                <p>Sunday to Thrusday&#58; 11am &#45; 8pm</p>
+                <p>Friday and Saturday&#58; 10am &#45; 9pm</p>
+            </div>
+
+        </div>
+
+        <div id="reservations">
+
+            <div class="wrapper">
+                <h2>Reservations</h2>
+
+                <p>Please fill out our reservation form and a member of our staff will be in touch with you to confirm the date and time within twelve hours. You may visit the cafe without a reservation, however there may be a wait time to enter the cafe.</p>
+
+                <form action="finalwebsite.html" name="myForm" id="reservationForm">
+
+                    <label for="nameForm">Name</label>
+                    <br/>
+                    <input type="text" name="nameForm" id="nameForm"/>
+                    <br/>
+                    <label for="numberForm">Phone Number</label>
+                    <br/>
+                    <input type="text" name="numberForm" id="numberForm"/>
+                    <br/>
+                    <label for="emailForm">Email</label>
+                    <br/>
+                    <input type="text" name="emailForm" id="emailForm"/>
+                    <br/>
+                    <!--Drop down menu code from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select -->
+                    <label for="adults">Adults</label>
+                    <br/>
+                    <select name="adults" id="adults">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <br/>
+                    <label for="children">Children</label>
+                    <br/>
+                    <select name="children" id="children">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <br/>
+                    <button type="button" onclick="formSubmit()" class="pointer">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="footer">
+            <p class="center">&copy; Purrfect Cat Cafe 2024</p>
+        </div>
+    </body>
+</html>
